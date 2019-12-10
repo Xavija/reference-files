@@ -1,0 +1,9 @@
+Comandi utili per vim
+
+# FIND - REPLACE
+:%s/Search/Replace/g	# search - replace globale senza conferma
+ " 		 /gc	# con conferma
+ "		 /gi 	# sena conferma, case insensitive
+:%3,7s/Search/Replace/g	# senza conferma, da riga 3 a 7
+
+:%s/Search/Replace/Flag # generale
